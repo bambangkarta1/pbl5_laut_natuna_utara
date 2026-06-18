@@ -32,6 +32,25 @@ if st.sidebar.button("Hitung"):
     st.sidebar.success(f"Stok: {estimasi_stok(sst_in, klo_in):,.0f} ton")
 else:
     st.sidebar.info("Masukkan nilai lalu klik tombol.")
+    st.sidebar.markdown("---")
+
+# Logo UNISBA
+st.sidebar.image("logo-unisba.png", width=100)
+
+st.sidebar.markdown("""
+**Kelompok 6**
+
+Arif Hamdani  
+10090224008
+
+Bambang Karta Wijaya  
+10090224025
+
+Moh Bayu Mustofa  
+10090224030
+
+Ekonomi Pembangunan | UNISBA | 2026
+""")
 
 # Pilihan grafik
 st.subheader("📈 Pilih Tampilan Grafik")
